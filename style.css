@@ -45,6 +45,8 @@ a:hover {
 }
 
 .bloc-lg {
+    display: flex;
+    flex-direction: column;
     padding: 100px 50px;
 }
 
@@ -360,6 +362,27 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+/* Modifications persos */
+a:focus{
+    border:0.2em solid black;
+}
+
+.socialindex{
+    margin-bottom: 1em;
+}
+
+.avis{
+    font-size:1.8em;
+}
+
+.ajouth1{
+    font-size: 1.35em;
+}
+
+.horaire p{
+    font-size: 1em;
 }
 
 @media (min-width: 768px) {
@@ -822,7 +845,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +871,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
