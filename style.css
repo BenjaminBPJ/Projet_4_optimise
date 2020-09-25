@@ -125,7 +125,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -142,7 +141,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -385,6 +383,28 @@ a:focus{
     font-size: 1em;
 }
 
+.tc-black{
+    color:#000000
+}
+
+.icon{
+    color: #000000;
+}
+
+.icon:hover{
+    color:#FFFFFF;
+}
+
+.partenaires{
+    margin-top: 2em;
+    left:45%;
+}
+
+.h1lilink{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 1em;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -674,7 +694,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -790,7 +810,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #000000;
 }
 
 .bgc-atomic-tangerine {
@@ -803,12 +823,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -895,10 +915,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -907,8 +923,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1049,12 +1063,18 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .partenaires{
+        left:40%;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .partenaires{
+        left:25%;
     }
 }
 
