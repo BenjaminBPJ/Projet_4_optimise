@@ -405,6 +405,10 @@ a:focus{
     font-size: 1.3em;
     padding-left: 1em;
 }
+
+.pdg{
+    font-size:1.5em;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -861,11 +865,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
