@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.2em;
 }
 
 .navbar {
@@ -295,7 +295,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 1.7em;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.2em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -372,7 +372,7 @@ a:focus{
 }
 
 .avis{
-    font-size:1.8em;
+    font-size:1.45em;
 }
 
 .ajouth1{
@@ -380,7 +380,7 @@ a:focus{
 }
 
 .horaire p{
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .tc-black{
@@ -407,7 +407,7 @@ a:focus{
 }
 
 .pdg{
-    font-size:1.5em;
+    font-size:1.2em;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -706,17 +706,17 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 2.2em;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 2.1em;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -724,7 +724,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -733,7 +733,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2em;
     font-family: "Open Sans";
 }
 
@@ -742,7 +742,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -752,12 +752,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.5em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -865,11 +865,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
